@@ -3,7 +3,7 @@ Feature: DemoQA Elements - Text Box
   I want to fill and submit a text box form
   So that I can verify the form submission works correctly
 
-  Scenario: Successfully submit text box form with valid data
+  Scenario1: Successfully submit text box form with valid data
     Given I navigate to DemoQA website
     And I navigate to Elements section
     And I click on Text Box link
