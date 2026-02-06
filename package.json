@@ -7,8 +7,13 @@
     "test": "cucumber-js",
     "test:ui": "playwright test --ui",
     "test:debug": "cucumber-js --publish",
+    "test:smoke": "cucumber-js --tags '@smoke'",
+    "test:regression": "cucumber-js --tags '@regression'",
+    "test:parallel": "cucumber-js --parallel 2",
     "test:report": "allure serve reports/allure-results",
-    "clean:reports": "rimraf reports/allure-results",
+    "test:serenity": "serenity-bdd run --features src/features --source reports/serenity",
+    "clean:reports": "rimraf reports/allure-results reports/serenity reports/screenshots logs",
+    "clean:all": "npm run clean:reports && rimraf node_modules package-lock.json",
     "pretest": "npm run clean:reports"
   },
   "keywords": [
@@ -26,14 +31,23 @@
     "@playwright/test": "^1.43.1",
     "@types/node": "^18.19.31",
     "@cucumber/pretty-formatter": "^1.0.0",
+    "@serenity-js/core": "^3.18.1",
+    "@serenity-js/cucumber": "^3.18.1",
+    "@serenity-js/playwright": "^3.18.1",
+    "@serenity-js/console-reporter": "^3.18.1",
+    "@serenity-js/serenity-bdd": "^3.18.1",
     "allure-commandline": "^2.25.0",
     "allure-playwright": "^2.9.0",
+    "allure-js-commons": "^2.9.0",
     "dotenv": "^16.4.5",
+    "winston": "^3.11.0",
+    "@types/winston": "^2.4.4",
     "rimraf": "^5.0.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "axios": "^1.6.0"
+    "axios": "^1.6.0",
+    "uuid": "^9.0.1"
   }
 }
