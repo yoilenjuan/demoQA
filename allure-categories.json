@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Assertion Failure",
+    "description": "Test failed due to an incorrect expected value or assertion mismatch.",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*expect\\(received\\).*|.*AssertionError.*|.*toBe.*Expected.*|.*toEqual.*",
+    "traceRegex": ".*expect\\.js.*"
+  },
+  {
+    "name": "Locator / Element Not Found",
+    "description": "Test failed because a UI element could not be found within the timeout.",
+    "matchedStatuses": ["broken"],
+    "messageRegex": ".*locator\\.waitFor.*Timeout.*|.*waiting for locator.*|.*Timeout.*exceeded.*waiting for.*",
+    "traceRegex": ".*base-page\\.ts.*"
+  },
+  {
+    "name": "Navigation / Page Load Failure",
+    "description": "Test failed because the browser could not navigate to or load the target page.",
+    "matchedStatuses": ["broken"],
+    "messageRegex": ".*net::ERR.*|.*Navigation.*failed.*|.*page\\.goto.*timeout.*"
+  },
+  {
+    "name": "Dialog / Alert Handling Error",
+    "description": "Test failed while interacting with a browser alert, confirm, or prompt dialog.",
+    "matchedStatuses": ["broken"],
+    "messageRegex": ".*dialog.*|.*alert.*|.*confirm.*|.*prompt.*"
+  },
+  {
+    "name": "Page / Browser Closed",
+    "description": "The page or browser context was closed unexpectedly during a test step.",
+    "matchedStatuses": ["broken"],
+    "messageRegex": ".*Target page, context or browser has been closed.*"
+  },
+  {
+    "name": "Product Defect",
+    "description": "The application returned unexpected data or behavior (confirmed functional defect).",
+    "matchedStatuses": ["failed"]
+  }
+]

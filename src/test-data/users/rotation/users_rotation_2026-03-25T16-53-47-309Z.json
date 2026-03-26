@@ -1,0 +1,167 @@
+[
+  {
+    "id": "d7c47d90-f5e6-415e-99b8-8c464ddbe2c2",
+    "username": "testuser_1774457627308_wke4co",
+    "password": "Aa^j198AEA!X",
+    "firstName": "David",
+    "lastName": "Taylor",
+    "email": "test_1774457627308_wke4co@automation.local",
+    "createdAt": "2026-03-25T16:53:47.308Z",
+    "testScenario": "suite_test_1",
+    "rotationFile": "users_rotation_2026-03-25T16-53-47-309Z.json"
+  },
+  {
+    "id": "607d093a-282e-4ffa-9040-eea8171dfb7c",
+    "username": "testuser_1774457627313_8gazky",
+    "password": "CJaADB!w%1N2",
+    "firstName": "Jennifer",
+    "lastName": "Jones",
+    "email": "test_1774457627313_8gazky@automation.local",
+    "createdAt": "2026-03-25T16:53:47.313Z",
+    "testScenario": "suite_test_2",
+    "rotationFile": "users_rotation_2026-03-25T16-53-47-309Z.json"
+  },
+  {
+    "id": "9f330c8c-38f5-4a1c-b63b-cec115831f0d",
+    "username": "testuser_1774457627315_wrop1m",
+    "password": "$Z!eB1@1aAQn",
+    "firstName": "Maria",
+    "lastName": "Garcia",
+    "email": "test_1774457627315_wrop1m@automation.local",
+    "createdAt": "2026-03-25T16:53:47.315Z",
+    "testScenario": "suite_test_3",
+    "rotationFile": "users_rotation_2026-03-25T16-53-47-309Z.json"
+  },
+  {
+    "id": "0379b7a2-50be-4725-a1d9-f7d4eaee1401",
+    "username": "testuser_1774457627317_swphmo",
+    "password": "!AN#HUplW1aw",
+    "firstName": "Robert",
+    "lastName": "Martinez",
+    "email": "test_1774457627317_swphmo@automation.local",
+    "createdAt": "2026-03-25T16:53:47.317Z",
+    "testScenario": "suite_test_4",
+    "rotationFile": "users_rotation_2026-03-25T16-53-47-309Z.json"
+  },
+  {
+    "id": "f8be270d-7c15-40c3-93fd-ef853253e8c9",
+    "username": "testuser_1774457627319_r37o9h",
+    "password": "aAZsJdK!U1yp",
+    "firstName": "Michael",
+    "lastName": "Jackson",
+    "email": "test_1774457627319_r37o9h@automation.local",
+    "createdAt": "2026-03-25T16:53:47.319Z",
+    "testScenario": "suite_test_5",
+    "rotationFile": "users_rotation_2026-03-25T16-53-47-309Z.json"
+  },
+  {
+    "id": "e8c445cb-2f91-405c-abbd-c8d029e37b98",
+    "username": "testuser_1774457627321_606udi",
+    "password": "8Aa!V%jeK16!",
+    "firstName": "Lisa",
+    "lastName": "Davis",
+    "email": "test_1774457627321_606udi@automation.local",
+    "createdAt": "2026-03-25T16:53:47.321Z",
+    "testScenario": "suite_test_6",
+    "rotationFile": "users_rotation_2026-03-25T16-53-47-309Z.json"
+  },
+  {
+    "id": "e90badd9-a6d7-4fae-a32d-cd5ec7f9f547",
+    "username": "testuser_1774457627323_x45w6o",
+    "password": "ZoYmAY^&a!1p",
+    "firstName": "Sarah",
+    "lastName": "Gonzalez",
+    "email": "test_1774457627323_x45w6o@automation.local",
+    "createdAt": "2026-03-25T16:53:47.323Z",
+    "testScenario": "suite_test_7",
+    "rotationFile": "users_rotation_2026-03-25T16-53-47-309Z.json"
+  },
+  {
+    "id": "930d23a9-2942-4c54-8250-b733fbb9559e",
+    "username": "testuser_1774457627326_4b03b0",
+    "password": "!sADa1SPl3i&",
+    "firstName": "Elizabeth",
+    "lastName": "Smith",
+    "email": "test_1774457627326_4b03b0@automation.local",
+    "createdAt": "2026-03-25T16:53:47.326Z",
+    "testScenario": "suite_test_8",
+    "rotationFile": "users_rotation_2026-03-25T16-53-47-309Z.json"
+  },
+  {
+    "id": "29c3d4b8-29dc-48ab-8abf-8c1d39bd41be",
+    "username": "testuser_1774457627329_idp1oi",
+    "password": "fMdqkG!ZaA1W",
+    "firstName": "Maria",
+    "lastName": "Brown",
+    "email": "test_1774457627329_idp1oi@automation.local",
+    "createdAt": "2026-03-25T16:53:47.329Z",
+    "testScenario": "suite_test_9",
+    "rotationFile": "users_rotation_2026-03-25T16-53-47-309Z.json"
+  },
+  {
+    "id": "989380f1-ee02-4fe5-9e99-75cb6e1529e3",
+    "username": "testuser_1774457627331_je4af2",
+    "password": "Y1!arAVS10tk",
+    "firstName": "Jennifer",
+    "lastName": "Jackson",
+    "email": "test_1774457627331_je4af2@automation.local",
+    "createdAt": "2026-03-25T16:53:47.331Z",
+    "testScenario": "suite_test_10",
+    "rotationFile": "users_rotation_2026-03-25T16-53-47-309Z.json"
+  },
+  {
+    "id": "ee585f6c-979b-43f5-b745-bae3bfce55f8",
+    "username": "testuser_1774457627333_kic3to",
+    "password": "a!1FIsK6AZZD",
+    "firstName": "Charles",
+    "lastName": "Miller",
+    "email": "test_1774457627333_kic3to@automation.local",
+    "createdAt": "2026-03-25T16:53:47.333Z",
+    "testScenario": "suite_test_11",
+    "rotationFile": "users_rotation_2026-03-25T16-53-47-309Z.json"
+  },
+  {
+    "id": "4ee09710-d5fc-406d-bdf4-e8beccf09dbd",
+    "username": "testuser_1774457627335_oi1xso",
+    "password": "1A!&QGa*YWMm",
+    "firstName": "Jennifer",
+    "lastName": "Wilson",
+    "email": "test_1774457627335_oi1xso@automation.local",
+    "createdAt": "2026-03-25T16:53:47.335Z",
+    "testScenario": "suite_test_12",
+    "rotationFile": "users_rotation_2026-03-25T16-53-47-309Z.json"
+  },
+  {
+    "id": "6554da59-f6af-466c-aff1-788bca89481a",
+    "username": "testuser_1774457627337_u1bt09",
+    "password": "%g*JAa3!K1Ih",
+    "firstName": "Jane",
+    "lastName": "Miller",
+    "email": "test_1774457627337_u1bt09@automation.local",
+    "createdAt": "2026-03-25T16:53:47.337Z",
+    "testScenario": "suite_test_13",
+    "rotationFile": "users_rotation_2026-03-25T16-53-47-309Z.json"
+  },
+  {
+    "id": "50c960a0-df77-4cfb-959e-1f477affa8db",
+    "username": "testuser_1774457627338_m19j37",
+    "password": "Aa1!T8J$8!K@",
+    "firstName": "Emma",
+    "lastName": "Hernandez",
+    "email": "test_1774457627338_m19j37@automation.local",
+    "createdAt": "2026-03-25T16:53:47.338Z",
+    "testScenario": "suite_test_14",
+    "rotationFile": "users_rotation_2026-03-25T16-53-47-309Z.json"
+  },
+  {
+    "id": "9dafbd06-abf7-4545-bdfc-841124555421",
+    "username": "testuser_1774457627395_004qjx",
+    "password": "AYP1uaP1A!GB",
+    "firstName": "Maria",
+    "lastName": "Martinez",
+    "email": "test_1774457627395_004qjx@automation.local",
+    "createdAt": "2026-03-25T16:53:47.395Z",
+    "testScenario": "auth_compatibility_test",
+    "rotationFile": "users_rotation_2026-03-25T16-53-47-309Z.json"
+  }
+]

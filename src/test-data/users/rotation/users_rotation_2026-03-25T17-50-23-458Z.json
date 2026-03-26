@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2034ee7e-8125-4410-a334-0a224a6a9ed4",
+    "username": "testuser_1774461023457_tnn8h0",
+    "password": "6Ahxyba1Ol!^",
+    "firstName": "Jane",
+    "lastName": "Williams",
+    "email": "test_1774461023457_tnn8h0@automation.local",
+    "createdAt": "2026-03-25T17:50:23.458Z",
+    "testScenario": "valid-login-test",
+    "rotationFile": "users_rotation_2026-03-25T17-50-23-458Z.json"
+  },
+  {
+    "id": "778175fc-ff24-4d3a-95e0-28dbfe14803a",
+    "username": "testuser_1774461093578_a1tv5q",
+    "password": "4b!1JafA!PUJ",
+    "firstName": "Robert",
+    "lastName": "Jones",
+    "email": "test_1774461093578_a1tv5q@automation.local",
+    "createdAt": "2026-03-25T17:51:33.578Z",
+    "testScenario": "registration-test",
+    "rotationFile": "users_rotation_2026-03-25T17-50-23-458Z.json"
+  }
+]

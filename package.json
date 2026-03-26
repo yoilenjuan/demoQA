@@ -1,0 +1,79 @@
+{
+  "name": "demoqa-automation-framework",
+  "version": "1.0.0",
+  "description": "Production-ready Test Automation Framework with Playwright, Cucumber BDD, TypeScript, and Allure Reporting",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run clean:reports && npx playwright install",
+    "test": "cucumber-js --config=cucumber.config.js",
+    "test:smoke": "cucumber-js --config=cucumber.config.js --tags=@smoke",
+    "test:regression": "cucumber-js --config=cucumber.config.js --tags=@regression",
+    "test:critical": "cucumber-js --config=cucumber.config.js --tags=@critical",
+    "test:parallel": "cucumber-js --config=cucumber.config.js --parallel=2",
+    "test:ui": "npx playwright test --ui",
+    "test:debug": "cucumber-js --config=cucumber.config.js --profile=debug",
+    "test:debug:smoke": "cross-env HEADLESS=false SLOW_MO=1000 cucumber-js --config=cucumber.config.js --tags=@smoke",
+    "test:debug:critical": "cross-env HEADLESS=false SLOW_MO=1000 cucumber-js --config=cucumber.config.js --tags=@critical",
+    "test:debug:step": "cross-env HEADLESS=false SLOW_MO=2000 DEBUG_STEP=true cucumber-js --config=cucumber.config.js",
+    "allure:generate": "node scripts/allure.js generate allure-results --clean -o allure-report",
+    "allure:open": "node scripts/allure.js open allure-report",
+    "allure:serve": "node scripts/allure.js serve allure-results",
+    "analyze:assertions": "node scripts/analyze-assertions.js",
+    "analyze:assertions:verbose": "node scripts/analyze-assertions.js --verbose",
+    "clean:allure-results": "rimraf allure-results",
+    "clean:reports": "rimraf reports allure-results allure-report test-results && rimraf logs/error.log logs/exceptions.log logs/rejections.log logs/test-execution.log",
+    "test:report": "npm run clean:allure-results && cucumber-js --config=cucumber.config.js && npm run allure:generate",
+    "clean:all": "rimraf node_modules reports test-results package-lock.json && rimraf logs/error.log logs/exceptions.log logs/rejections.log logs/test-execution.log",
+    "build": "tsc",
+    "lint": "npx prettier --write .",
+    "postinstall": "npx playwright install"
+  },
+  "keywords": [
+    "playwright",
+    "cucumber",
+    "typescript",
+    "allure",
+    "automation",
+    "testing",
+    "bdd"
+  ],
+  "author": "QA Automation Team",
+  "license": "MIT",
+  "dependencies": {
+    "@cucumber/pretty-formatter": "1.0.0",
+    "@playwright/test": "1.43.1",
+    "axios": "1.6.0",
+    "dotenv": "16.4.5",
+    "uuid": "9.0.1",
+    "winston": "3.11.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "@types/node": "18.19.31",
+    "@types/uuid": "9.0.8",
+    "@types/winston": "2.4.4",
+    "allure-commandline": "2.25.0",
+    "allure-cucumberjs": "^3.6.0",
+    "allure-js-commons": "2.9.0",
+    "allure-playwright": "2.9.0",
+    "cross-env": "^10.1.0",
+    "lint-staged": "15.2.2",
+    "prettier": "3.2.5",
+    "rimraf": "5.0.0",
+    "ts-node": "10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "5.4.5"
+  },
+  "engines": {
+    "node": ">=18.19.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/demoqa-automation-framework.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/demoqa-automation-framework/issues"
+  },
+  "homepage": "https://github.com/your-org/demoqa-automation-framework#readme"
+}

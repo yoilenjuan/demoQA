@@ -1,0 +1,200 @@
+[
+  {
+    "id": "5bb27b2c-12e6-4492-8e21-0798a8b0d7b6",
+    "username": "testuser_1774436309938_i0orj7",
+    "password": "#pr!osA&a%13",
+    "firstName": "Barbara",
+    "lastName": "Johnson",
+    "email": "test_1774436309938_i0orj7@automation.local",
+    "createdAt": "2026-03-25T10:58:29.938Z",
+    "testScenario": "valid-login-test",
+    "rotationFile": "users_rotation_2026-03-25T10-58-29-938Z.json"
+  },
+  {
+    "id": "e8e23861-0adf-4c5b-8c35-60e883f027b1",
+    "username": "testuser_1774436314861_wur135",
+    "password": "1Ev!A6bPajCF",
+    "firstName": "Jane",
+    "lastName": "Rodriguez",
+    "email": "test_1774436314861_wur135@automation.local",
+    "createdAt": "2026-03-25T10:58:34.861Z",
+    "testScenario": "logout-test",
+    "rotationFile": "users_rotation_2026-03-25T10-58-29-938Z.json"
+  },
+  {
+    "id": "18e2b341-a6a1-4608-a6c0-2a8434f5c75c",
+    "username": "testuser_1774436397835_peqe21",
+    "password": "1FaC!piV2VAn",
+    "firstName": "Christopher",
+    "lastName": "Martin",
+    "email": "test_1774436397835_peqe21@automation.local",
+    "createdAt": "2026-03-25T10:59:57.835Z",
+    "testScenario": "suite_test_0",
+    "rotationFile": "users_rotation_2026-03-25T10-58-29-938Z.json"
+  },
+  {
+    "id": "87b7381b-6ba9-46ca-aa29-d71ee7dbc6a1",
+    "username": "testuser_1774436397837_lxddkt",
+    "password": "3aP1o$aAp!p$",
+    "firstName": "Daniel",
+    "lastName": "Jackson",
+    "email": "test_1774436397837_lxddkt@automation.local",
+    "createdAt": "2026-03-25T10:59:57.838Z",
+    "testScenario": "suite_test_1",
+    "rotationFile": "users_rotation_2026-03-25T10-58-29-938Z.json"
+  },
+  {
+    "id": "3b8155e2-eb19-4ebe-b5fb-7a43bda30717",
+    "username": "testuser_1774436397840_a07qt1",
+    "password": "c!1XaSslA%kO",
+    "firstName": "Susan",
+    "lastName": "Smith",
+    "email": "test_1774436397840_a07qt1@automation.local",
+    "createdAt": "2026-03-25T10:59:57.840Z",
+    "testScenario": "suite_test_2",
+    "rotationFile": "users_rotation_2026-03-25T10-58-29-938Z.json"
+  },
+  {
+    "id": "5f076ca7-2012-43a3-a92d-12baf18ab078",
+    "username": "testuser_1774436397842_spu2fb",
+    "password": "9bA1p#a!xjo8",
+    "firstName": "Emma",
+    "lastName": "Wilson",
+    "email": "test_1774436397842_spu2fb@automation.local",
+    "createdAt": "2026-03-25T10:59:57.842Z",
+    "testScenario": "suite_test_3",
+    "rotationFile": "users_rotation_2026-03-25T10-58-29-938Z.json"
+  },
+  {
+    "id": "2a2e9691-534f-4cc1-9e41-118838792d36",
+    "username": "testuser_1774436397844_84ekcn",
+    "password": "DYIL1a4L!T1A",
+    "firstName": "Emma",
+    "lastName": "Williams",
+    "email": "test_1774436397844_84ekcn@automation.local",
+    "createdAt": "2026-03-25T10:59:57.844Z",
+    "testScenario": "suite_test_4",
+    "rotationFile": "users_rotation_2026-03-25T10-58-29-938Z.json"
+  },
+  {
+    "id": "4e526e6f-985a-4bbc-8426-2117900944cb",
+    "username": "testuser_1774436397846_bh3bn2",
+    "password": "1a*A!L#*YEu2",
+    "firstName": "Lisa",
+    "lastName": "Brown",
+    "email": "test_1774436397846_bh3bn2@automation.local",
+    "createdAt": "2026-03-25T10:59:57.846Z",
+    "testScenario": "suite_test_5",
+    "rotationFile": "users_rotation_2026-03-25T10-58-29-938Z.json"
+  },
+  {
+    "id": "831671bb-6254-4a2f-a0b0-33ddb31f57c6",
+    "username": "testuser_1774436397847_yxm36y",
+    "password": "HAM!Car1IzQC",
+    "firstName": "Maria",
+    "lastName": "Moore",
+    "email": "test_1774436397847_yxm36y@automation.local",
+    "createdAt": "2026-03-25T10:59:57.847Z",
+    "testScenario": "suite_test_6",
+    "rotationFile": "users_rotation_2026-03-25T10-58-29-938Z.json"
+  },
+  {
+    "id": "e4d40d1b-d221-4371-a89c-baeed70b8f98",
+    "username": "testuser_1774436397849_vjxche",
+    "password": "!sAaDG81V^P$",
+    "firstName": "Robert",
+    "lastName": "Jackson",
+    "email": "test_1774436397849_vjxche@automation.local",
+    "createdAt": "2026-03-25T10:59:57.849Z",
+    "testScenario": "suite_test_7",
+    "rotationFile": "users_rotation_2026-03-25T10-58-29-938Z.json"
+  },
+  {
+    "id": "556a85ff-a840-4ce9-a197-d1571e006682",
+    "username": "testuser_1774436397852_vpyrwp",
+    "password": "yiADdvza1g*!",
+    "firstName": "Charles",
+    "lastName": "Rodriguez",
+    "email": "test_1774436397852_vpyrwp@automation.local",
+    "createdAt": "2026-03-25T10:59:57.852Z",
+    "testScenario": "suite_test_8",
+    "rotationFile": "users_rotation_2026-03-25T10-58-29-938Z.json"
+  },
+  {
+    "id": "d0f51ff7-9d71-4bbe-be1c-3b653981b281",
+    "username": "testuser_1774436397854_rf1jlg",
+    "password": "r!#a5AT$1@l7",
+    "firstName": "Emma",
+    "lastName": "Williams",
+    "email": "test_1774436397854_rf1jlg@automation.local",
+    "createdAt": "2026-03-25T10:59:57.854Z",
+    "testScenario": "suite_test_9",
+    "rotationFile": "users_rotation_2026-03-25T10-58-29-938Z.json"
+  },
+  {
+    "id": "f77f4bc3-446c-451a-89fc-e77d10056198",
+    "username": "testuser_1774436397860_2tahp5",
+    "password": "!j1pfBaA4Kc0",
+    "firstName": "William",
+    "lastName": "Martinez",
+    "email": "test_1774436397860_2tahp5@automation.local",
+    "createdAt": "2026-03-25T10:59:57.860Z",
+    "testScenario": "suite_test_10",
+    "rotationFile": "users_rotation_2026-03-25T10-58-29-938Z.json"
+  },
+  {
+    "id": "917c819a-9457-47f9-bee9-eb4dbfde284f",
+    "username": "testuser_1774436397861_1wvywh",
+    "password": "juz!!**1GaAp",
+    "firstName": "Christopher",
+    "lastName": "Moore",
+    "email": "test_1774436397861_1wvywh@automation.local",
+    "createdAt": "2026-03-25T10:59:57.861Z",
+    "testScenario": "suite_test_11",
+    "rotationFile": "users_rotation_2026-03-25T10-58-29-938Z.json"
+  },
+  {
+    "id": "3c80629a-7cc2-4cc8-ab6a-c84de3d062d8",
+    "username": "testuser_1774436397862_obuy6n",
+    "password": "AalI1Y!#b!J0",
+    "firstName": "Charles",
+    "lastName": "Hernandez",
+    "email": "test_1774436397862_obuy6n@automation.local",
+    "createdAt": "2026-03-25T10:59:57.862Z",
+    "testScenario": "suite_test_12",
+    "rotationFile": "users_rotation_2026-03-25T10-58-29-938Z.json"
+  },
+  {
+    "id": "156fba95-748a-4d3c-8683-d8c64c97ca9c",
+    "username": "testuser_1774436397863_53h6lm",
+    "password": "HnV!9a21LA$p",
+    "firstName": "John",
+    "lastName": "Wilson",
+    "email": "test_1774436397863_53h6lm@automation.local",
+    "createdAt": "2026-03-25T10:59:57.863Z",
+    "testScenario": "suite_test_13",
+    "rotationFile": "users_rotation_2026-03-25T10-58-29-938Z.json"
+  },
+  {
+    "id": "e45449a3-3e57-48d6-94f1-84ebf7745412",
+    "username": "testuser_1774436397864_kj519l",
+    "password": "se1A0JfGa!Xe",
+    "firstName": "Patricia",
+    "lastName": "Martin",
+    "email": "test_1774436397864_kj519l@automation.local",
+    "createdAt": "2026-03-25T10:59:57.864Z",
+    "testScenario": "suite_test_14",
+    "rotationFile": "users_rotation_2026-03-25T10-58-29-938Z.json"
+  },
+  {
+    "id": "9ecbe8bc-c7d7-44b4-95d1-7d672e0f0dcd",
+    "username": "testuser_1774436397872_yybeuc",
+    "password": "1H!Y5&VaA7c8",
+    "firstName": "Linda",
+    "lastName": "Anderson",
+    "email": "test_1774436397872_yybeuc@automation.local",
+    "createdAt": "2026-03-25T10:59:57.872Z",
+    "testScenario": "auth_compatibility_test",
+    "rotationFile": "users_rotation_2026-03-25T10-58-29-938Z.json"
+  }
+]

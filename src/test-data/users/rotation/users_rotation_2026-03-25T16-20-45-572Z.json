@@ -1,0 +1,35 @@
+[
+  {
+    "id": "ec9d907b-0397-49a1-9357-01afe5e4fc1f",
+    "username": "testuser_1774455645571_b6lio4",
+    "password": "OaxA!zCGE^1#",
+    "firstName": "William",
+    "lastName": "Anderson",
+    "email": "test_1774455645571_b6lio4@automation.local",
+    "createdAt": "2026-03-25T16:20:45.571Z",
+    "testScenario": "valid-login-test",
+    "rotationFile": "users_rotation_2026-03-25T16-20-45-572Z.json"
+  },
+  {
+    "id": "56dc2bee-aa74-4e05-a619-eed7f45d0bfa",
+    "username": "testuser_1774455752203_0dreo5",
+    "password": "JCA#1ua!DBaT",
+    "firstName": "Daniel",
+    "lastName": "Williams",
+    "email": "test_1774455752203_0dreo5@automation.local",
+    "createdAt": "2026-03-25T16:22:32.203Z",
+    "testScenario": "logout-test",
+    "rotationFile": "users_rotation_2026-03-25T16-20-45-572Z.json"
+  },
+  {
+    "id": "2547ad8b-f778-4f53-9f48-bdbc36961ac1",
+    "username": "testuser_1774455795746_9umvov",
+    "password": "!1eavbFAhFkj",
+    "firstName": "William",
+    "lastName": "Brown",
+    "email": "test_1774455795746_9umvov@automation.local",
+    "createdAt": "2026-03-25T16:23:15.746Z",
+    "testScenario": "registration-test",
+    "rotationFile": "users_rotation_2026-03-25T16-20-45-572Z.json"
+  }
+]

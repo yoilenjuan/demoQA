@@ -1,0 +1,13 @@
+[
+  {
+    "id": "caa24692-0660-4361-af47-173abff4ddcb",
+    "username": "testuser_1774461425322_p25pqb",
+    "password": "pqAxVN1!aloT",
+    "firstName": "William",
+    "lastName": "Martinez",
+    "email": "test_1774461425322_p25pqb@automation.local",
+    "createdAt": "2026-03-25T17:57:05.323Z",
+    "testScenario": "valid-login-test",
+    "rotationFile": "users_rotation_2026-03-25T17-57-05-323Z.json"
+  }
+]

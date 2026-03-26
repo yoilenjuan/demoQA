@@ -1,0 +1,54 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["ES2020", "DOM"],
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,  
+    "noImplicitReturns": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "baseUrl": ".",
+    "paths": {
+      "@pages/*": ["src/page-objects/*"],
+      "@pages/auth/*": ["src/page-objects/pages/auth/*"],
+      "@pages/navigation/*": ["src/page-objects/pages/navigation/*"],
+      "@steps/*": ["src/step-definitions/*"],
+      "@steps/auth/*": ["src/step-definitions/auth/*"],
+      "@steps/navigation/*": ["src/step-definitions/navigation/*"],
+      "@support/*": ["src/support/*"],
+      "@utils/*": ["src/utils/*"],
+      "@config/*": ["src/config/*"]
+    },
+    "types": ["node", "playwright"]
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "reports",
+    "test-results",
+    "logs"
+  ],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"],
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "ES2020"
+    }
+  }
+}
